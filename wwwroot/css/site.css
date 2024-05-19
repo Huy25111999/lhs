@@ -17,10 +17,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-}
-
 
 * {
   margin: 0;
@@ -110,6 +106,11 @@ button.btn.btn-primary-light {
 
 
 /* --- home --- */
+
+.wrapper-container {
+  padding: 80px 0;
+}
+
 .service-container {
   width: 1128px;
 }

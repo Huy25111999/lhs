@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D77KRjK5dceJmCX46KwpsipOOzElfIU18L5iuvE0/8g=",
+  "Hash": "ANVV1M5pnkkM/s5XpBmcN3y6QpsntXXyiUR2fGXu2wE=",
   "Source": "lhs",
   "BasePath": "_content/lhs",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\project\\lhs\\wwwroot\\images\\banner\\about-us.png",
+      "SourceId": "lhs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\lhs\\wwwroot\\",
+      "BasePath": "_content/lhs",
+      "RelativePath": "images/banner/about-us.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banner\\about-us.png"
     },
     {
       "Identity": "D:\\project\\lhs\\wwwroot\\images\\home\\accounting.png",
@@ -262,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\home\\taxation.png"
+    },
+    {
+      "Identity": "D:\\project\\lhs\\wwwroot\\images\\logo.png",
+      "SourceId": "lhs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project\\lhs\\wwwroot\\",
+      "BasePath": "_content/lhs",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "D:\\project\\lhs\\wwwroot\\js\\site.js",

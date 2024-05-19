@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\banner\\about-us.png",
+      "PackagePath": "staticwebassets\\images\\banner\\about-us.png"
+    },
+    {
       "Id": "D:\\project\\lhs\\wwwroot\\images\\home\\accounting.png",
       "PackagePath": "staticwebassets\\images\\home\\accounting.png"
     },
@@ -47,6 +51,10 @@
     {
       "Id": "D:\\project\\lhs\\wwwroot\\images\\home\\taxation.png",
       "PackagePath": "staticwebassets\\images\\home\\taxation.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "D:\\project\\lhs\\wwwroot\\js\\site.js",

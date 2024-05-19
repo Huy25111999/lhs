@@ -28,3 +28,4 @@ D:\project\lhs\obj\Debug\net8.0\refint\lhs.dll
 D:\project\lhs\obj\Debug\net8.0\lhs.pdb
 D:\project\lhs\obj\Debug\net8.0\lhs.genruntimeconfig.cache
 D:\project\lhs\obj\Debug\net8.0\ref\lhs.dll
+D:\project\lhs\obj\Debug\net8.0\lhs.sourcelink.json

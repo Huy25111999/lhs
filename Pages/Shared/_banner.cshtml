@@ -1,0 +1,29 @@
+﻿
+@model string
+@{
+    Layout = null;
+}
+
+
+<div class="container">
+  <img src="~/images/banner/about-us.png" alt="Snow" style="width:100%;">
+  
+  <div class="centered text-white fw-bold">@Model</div>
+</div>
+
+<style>
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%; 
+      left: 396px;
+      font-size: 64px;
+      line-height: 75px;
+      transform: translate(-50%, -50%);
+    }
+</style>
