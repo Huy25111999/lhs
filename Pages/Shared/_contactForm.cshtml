@@ -1,30 +1,170 @@
-
-@model string
 @{
-    Layout = null;
+  Layout = null;
 }
 
 
-<div class="card-form">
-  <img src="~/images/banner/about-us.png" alt="Snow" style="width:100%;">
-  
-  <div class="centered text-white fw-bold">@Model</div>
+<!--Begin BANNER -->
+<div class="wrapper flex-column-fluid">
+  <div class="container-fluid" style="padding: 0">
+    <div class="inside-banner career-banner banner" id="banner-wiz">
+      <div class="main"></div>
+      <div class="hero-breadcrumb">
+        <div class="wrapper container-banner">
+          <div class="container-fluid">
+            <div class="hero-breadcrumb-inner">
+              <div class="form">
+                <form id="form" class="needs-validation" novalidate>
+                  <h3 class="text-title text-center m-0">Request a Call Back</h3>
+                  <div class="container-form mx-auto">
+                    <div class="form-group lh-1 mt-4">
+                      <label class="label-input mb-2" for="usr">Name</label>
+                      <input type="text" placeholder="e.g. John Doe" class="form-control custom-input" id="name"
+                        name="name" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2" for="usr">Email</label>
+                      <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
+                        id="email" name="email" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2" for="usr">Phone</label>
+                      <input type="text" placeholder="e.g. 6814 0066" class="form-control custom-input" id="contact"
+                        name="contact" onkeypress="keyPress(event)" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2" for="usr">Enquiring about</label>
+                      <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
+                        id="email" name="email" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2" for="usr">Message</label>
+                      <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
+                        id="email" name="email" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+                  </div>
+                  <div class="btn-customer mt-4">
+                    <button type="submit" class="btn btn-primary w-100">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
-    .card-form {
-      position: relative;
-      text-align: center;
-      color: white;
-      max-height: 891px;
-    }
-    
-    .centered {
-      position: absolute;
-      top: 50%; 
-      left: 396px;
-      font-size: 64px;
-      line-height: 75px;
-      transform: translate(-50%, -50%);
-    }
+  .contact-form {
+    background-image: url("./images/banner/banner-mobile-default.png") !important;
+  }
+
+  .main {
+    background-image: url("./images/banner/banner-mobile-default.png");
+  }
+
+  .main {
+    position: relative;
+    width: 1920px;
+    height: 950px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main::before {
+    opacity: 1;
+    background: #303030;
+    mix-blend-mode: hard-light;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+
+  .inside-banner {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .inside-banner img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .hero-breadcrumb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+  }
+
+  .hero-breadcrumb-inner {
+    /* max-width: 712px; */
+    /* height: 487px; */
+  }
+
+  .wrapper.container-banner {
+    align-self: flex-start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*---form---*/
+  .form {
+    max-width: 568px;
+    padding: 32px 56px;
+    background: #ffff;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+
+  .container-form {
+    width: 456px;
+  }
+
+  .form-control {
+    background: #f1f1f1;
+    border-radius: 4px;
+    min-height: 50px;
+    border: 0;
+    padding: 12px;
+  }
+
+  .form-control::placeholder {
+    color: #7c7c7c;
+  }
+
+  input:focus::placeholder,
+  .form-control:focus::placeholder {
+    color: transparent;
+  }
 </style>
