@@ -103,7 +103,13 @@ button.btn.btn-primary-light {
   color: #ffffff;
 }
 
+.card-container-default {
+    width: 1128px;
+}
 
+.card-container-bg {
+    width: 1129px;
+}
 
 /* --- home --- */
 

@@ -6,210 +6,300 @@
 <!-- Render the banner partial view with a parameter -->
 @await Html.PartialAsync("Shared/_banner", "About LSH")
 
-<section class="about-logo">
-  <div class="card">
-    <div class="card-container mx-auto">
-      <div class="d-flex flex-wrap justify-content-between">
-        <div class="cards-img">
-          <img src="~/images/logo-about-us.png" alt="Cloud based phone system" />
+<section class="about">
+    <div class="card b-0">
+        <div class="card-container-sm mx-auto">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="cards-img">
+                    <img src="~/images/logo-about-us.png"
+                         alt="Cloud based phone system" />
+                </div>
+
+                <div class="pb-0 card-inner-text-logo d-flex align-items-center">
+                    <div class="inner-text">
+                        <h5 class="category fw-bold">Our Logo</h5>
+                        <h2 class="text-title mb-4">The Significance</h2>
+                        <p class="mb-4">
+                            Over the years, Siew Hua has served clients to the utmost
+                            holistically by providing all corporate services under one
+                            roof.
+                        </p>
+                        <p class="mb-0">
+                            As a recognition to LSH’s commitment to service excellence,
+                            Siew Hua received from one of her clients a new orchid hybrid
+                            named after her. The name Dendrobium Lee Siew Hua was
+                            registered with The Royal Horticultural Society of London on 3
+                            June 1999.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="pb-0 card-inner-text d-flex align-items-center">
-          <div class='inner-text'>
-            <h5 class="category fw-bold">Our Logo</h5>
-            <h2 class="text-title mb-4">The Significance</h2>
-            <p class="mb-3">As a recognition to LSH’s commitment to service excellence, Siew Hua received from one of
-              her clients a new orchid hybrid named after her. The name Dendrobium Lee Siew Hua was registered with The
-              Royal Horticultural Society of London on 3 June 1999.</p>
-
-          </div>
-
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
 <section class="inside-banner career-banner">
-  <div class="inside-banner">
-    <img class="responsive-image img-banner-question" src="~/images/banner/banner-genesis.png" alt="Home">
-
-  </div>
-
-  <div class="hero-breadcrumb">
-    <div class="wrapper">
-      <div class="container-fluid p-0">
-        <div class="hero-breadcrumb-inner">
-          <h5 class="fw-bold text-white">The Genesis of It All</h5>
-          <h2 class="text-title text-white mb-4">LSH Management Services Pte Ltd was founded on 24 June 1992.</h2>
-          <p class="mb-0 text-white">Founded based on the spirit of enterprise and innovation to provide top quality
-            service to clients.</p>
-        </div>
-      </div>
+    <div class="inside-banner">
+        <img class="responsive-image img-banner-question"
+             src="~/images/banner/banner-genesis.png"
+             alt="Home" />
     </div>
-  </div>
+
+    <div class="hero-breadcrumb">
+        <div class="wrapper">
+            <div class="container-fluid p-0">
+                <div class="hero-breadcrumb-inner">
+                    <h5 class="fw-bold text-white mb-2sm">The Genesis of It All</h5>
+                    <h2 class="text-title text-white mb-4">
+                        LSH Management Services Pte Ltd was founded on 24 June 1992.
+                    </h2>
+                    <p class="mb-0 text-white">
+                        Founded based on the spirit of enterprise and innovation to
+                        provide top quality service to clients.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
+<section class="about mt-8x">
+    <div class="card">
+        <div class="card-container-default mx-auto">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="pb-0 card-inner-text d-flex align-items-center">
+                    <div class="inner-text inner-text-left">
+                        <h5 class="category fw-bold">Our Founder</h5>
+                        <h2 class="text-title mb-1">
+                            Lee Siew Hua
+                            <span class="text-sub-title fw-bold">(FCIS)</span>
+                        </h2>
+                        <h4 class="fw-bold mb-4 text-sub-title">Managing Director</h4>
+                        <p class="mb-4">
+                            Siew Hua is the founder and owner of LSH Management Services
+                            Pte Ltd and has over 20 years of Corporate Secretarial
+                            experience as a licensed Practising Chartered Secretary. As a
+                            trusted corporate services advisor, she started her career at
+                            one of the International Accounting Firms. She has advised
+                            clients from multiple industry sectors on corporate
+                            secretarial and other corporate matters.
+                        </p>
+                        <div class="inner-text inner-text-bottom">
+                            <h5 class="fw-bold">Presently, Siew Hua stands as a</h5>
+                            <ul class="m-0">
+                                <li>UK (ACIS)</li>
+                                <li>Qualified and Licensed Chartered Secretary (FCIS)</li>
+                                <li>
+                                    A member of The Institute of Chartered Secretaries and
+                                    Administrators
+                                </li>
+                                <li>
+                                    A member of the Chartered Secretaries Institute of
+                                    Singapore (CSIS)
+                                </li>
+                                <li>
+                                    She holds a Practising Certificate issued by both ACIS and
+                                    CSIS
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
-<section class="about-logo mt-8x">
-  <div class="card">
-    <div class="card-container mx-auto">
-      <div class="d-flex flex-wrap justify-content-between">
-
-        <div class="pb-0 card-inner-text d-flex align-items-center">
-          <div class='inner-text inner-text-top'>
-            <h5 class="category fw-bold">Our Founder</h5>
-            <h2 class="text-title mb-1">Lee Siew Hua (FCIS)</h2>
-            <h4 class="fw-bold mb-4">Managing Director</h4>
-            <p class="mb-3">Siew Hua is the founder and owner of LSH Management Services Pte Ltd and has over 20 years
-              of Corporate Secretarial experience as a licensed Practising Chartered Secretary. As a trusted corporate
-              services advisor, she started her career at one of the International Accounting Firms. She has advised
-              clients from multiple industry sectors on corporate secretarial and other corporate matters.</p>
-            <p><span>LSH</span> encourages both in-house training and external courses so as to ensure that all our
-              employees are updated with the latest changes in the Singapore Companies Act and other relevant regulatory
-              requirements.</p>
-
-          </div>
-          <div class="inner-text inner-text-bottom">
-            <h5 class="fw-bold">Presently, Siew Hua stands as a</h5>
-            <ul>
-              <li>UK (ACIS)</li>
-              <li>Qualified and Licensed Chartered Secretary (FCIS)</li>
-              <li>A member of The Institute of Chartered Secretaries and Administrators</li>
-              <li>A member of the Chartered Secretaries Institute of Singapore (CSIS)</li>
-              <li>She holds a Practising Certificate issued by both ACIS and CSIS</li>
-            </ul>
-          </div>
-
+                <div class="cards-img img-founder">
+                    <img src="~/images/about-us/experience.png"
+                         alt="Cloud based phone system" />
+                </div>
+            </div>
         </div>
-
-        <div class="cards-img">
-          <img src="~/images/about-us/staff-our.png" alt="Cloud based phone system" />
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<section class="about-logo mt-8x">
-  <div class="card">
-    <div class="card-container mx-auto">
-      <div class="d-flex flex-wrap justify-content-between">
-        <div class="cards-img">
-          <img src="~/images/about-us/staff-our.png" alt="Cloud based phone system" />
+<section class="about mt-8x">
+    <div class="card">
+        <div class="card-container-bg mx-auto">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="cards-img img-excellence">
+                    <img src="~/images/about-us/excellence.png"
+                         alt="Cloud based phone system" />
+                </div>
+
+                <div class="pb-0 card-inner-text d-flex align-items-center">
+                    <div class="inner-text">
+                        <h5 class="category fw-bold">Our Staff</h5>
+                        <h4 class="fw-bold text-sub-title">
+                            Leadership and Expertise at LSH:
+                        </h4>
+                        <h2 class="text-title mb-4">A Commitment to Excellence</h2>
+                        <p class="mb-3">
+                            <span class="fw-bold">LSH</span> is led by an experienced and
+                            dedicated Practising Chartered Secretary who has more than 25
+                            years of experience particularly in the provision of Corporate
+                            Secretarial services. She is in turn supported by a team of
+                            support staff who are experienced in the provision of
+                            professional business services such as Corporate Secretarial,
+                            Accounting and Taxation services
+                        </p>
+                        <p class="mb-0">
+                            <span class="fw-bold">LSH</span> encourages both in-house
+                            training and external courses so as to ensure that all our
+                            employees are updated with the latest changes in the Singapore
+                            Companies Act and other relevant regulatory requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="pb-0 card-inner-text d-flex align-items-center">
-          <div class='inner-text'>
-            <h5 class="category fw-bold">Our Staff</h5>
-            <h4 class="fw-bold mb-4">Leadership and Expertise at LSH:</h4>
-            <h2 class="text-title mb-4">A Commitment to Excellence</h2>
-            <p class="mb-3"><span>LSH</span> is led by an experienced and dedicated Practising Chartered Secretary who
-              has more than 25 years of experience particularly in the provision of Corporate Secretarial services. She
-              is in turn supported by a team of support staff who are experienced in the provision of professional
-              business services such as Corporate Secretarial, Accounting and Taxation services</p>
-            <p><span>LSH</span> encourages both in-house training and external courses so as to ensure that all our
-              employees are updated with the latest changes in the Singapore Companies Act and other relevant regulatory
-              requirements.</p>
-
-          </div>
-
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
-<section class="mt-8x">
-  <div class='inner-text'>
-    <h5 class="category fw-bold">Our Workspace</h5>
-    <h2 class="text-title mb-4">Delivering Dedicated Services to You</h2>
-  </div>
-  <div class="container-service">
-    <div class="row m-0 justify-content-between">
-      <div class="comp-cards p-0 col-md-3">
-        <div class="p-3">
-          <div class="como-cards-img mb-3">
-            <picture>
-              <source media="(max-width: 768px)" srcset="../assets/images/seminar/img-mobile/desmon.png">
-              <img src="~/images/home/secretarial.png" alt="Service">
-            </picture>
-          </div>
+<section class="about about-workspace mt-8x">
+    <div class="card">
+        <div class="card-container-sm mx-auto">
+            <div class="inner-text">
+                <h5 class="category fw-bold">Our Workspace</h5>
+                <h2 class="text-title mb-4x">
+                    Delivering Dedicated Services to You
+                </h2>
+            </div>
+            <div class="row m-0 justify-content-between">
+                <div class="comp-cards p-0 col-md-3">
+                    <div class="como-cards-img">
+                        <picture>
+                            <source media="(max-width: 768px)"
+                                    srcset="../assets/images/seminar/img-mobile/desmon.png" />
+                            <img src="~/images/about-us/workspace-one.png"
+                                 alt="Service" />
+                        </picture>
+                    </div>
+                </div>
+
+                <div class="comp-cards p-0 col-md-3">
+                    <div class="como-cards-img">
+                        <picture>
+                            <source media="(max-width: 768px)"
+                                    srcset="../assets/images/seminar/img-mobile/desmon.png" />
+                            <img src="~/images/about-us/workspace-two.png"
+                                 alt="Service" />
+                        </picture>
+                    </div>
+                </div>
+
+                <div class="comp-cards p-0 col-md-3">
+                    <div class="como-cards-img">
+                        <picture>
+                            <source media="(max-width: 768px)"
+                                    srcset="../assets/images/seminar/img-mobile/desmon.png" />
+                            <img src="~/images/about-us/workspace-three.png"
+                                 alt="Service" />
+                        </picture>
+                    </div>
+                </div>
+
+                <div class="comp-cards p-0 col-md-3">
+                    <div class="como-cards-img">
+                        <picture>
+                            <source media="(max-width: 768px)"
+                                    srcset="../assets/images/seminar/img-mobile/desmon.png" />
+                            <img src="~/images/about-us/workspace-four.png"
+                                 alt="Service" />
+                        </picture>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
-
-      <div class="comp-cards p-0 col-md-3">
-        <div class="p-3">
-          <div class="como-cards-img mb-3">
-            <picture>
-              <source media="(max-width: 768px)" srcset="../assets/images/seminar/img-mobile/desmon.png">
-              <img src="~/images/home/accounting.png" alt="Service">
-            </picture>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="comp-cards p-0 col-md-3">
-        <div class="p-3">
-          <div class="como-cards-img mb-3">
-            <picture>
-              <source media="(max-width: 768px)" srcset="../assets/images/seminar/img-mobile/desmon.png">
-              <img src="~/images/home/taxation.png" alt="Service">
-            </picture>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="comp-cards p-0 col-md-3">
-        <div class="p-3">
-          <div class="como-cards-img mb-3">
-            <picture>
-              <source media="(max-width: 768px)" srcset="../assets/images/seminar/img-mobile/desmon.png">
-              <img src="~/images/home/other-service.png" alt="Service">
-            </picture>
-          </div>
-        </div>
-
-      </div>
     </div>
-  </div>
 </section>
-
 
 <style>
-  /* about-us */
+  .mb-2sm {
+  margin-bottom: 12px;
+}
 
-  .card-container {
-    width: 312px;
-    height: 258px;
-  }
+.text-sub-title {
+  font-size: 22px;
+  line-height: 25.78px;
+}
 
-  .about-logo .card-inner-text {
-    margin-left: 73px;
-    max-width: 593px;
-  }
+/* about-us */
 
-  /*banner*/
+.about .card-container-sm {
+  width: 1126px;
+  min-height: 266px;
+  margin: 80px 0;
+}
 
-  .inside-banner {
-    position: relative;
-    overflow: hidden;
-  }
+.card {
+  border: 0;
+}
 
-  .hero-breadcrumb {
-    position: absolute;
-    top: 0;
-    left: 396px;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
+.about .card-container-sm .cards-img {
+  width: 320px;
+  height: 258px;
+  padding: 4px;
+}
 
-  .hero-breadcrumb-inner {
-    max-width: 648px;
-  }
+.about .card-inner-text {
+  max-width: 593px;
+}
+
+.about .card-inner-text-logo {
+    max-width: 758px;
+}
+
+.about .cards-img {
+  max-width: 455px;
+  max-height: 562px;
+}
+
+.cards-img.img-founder {
+  height: 562px;
+}
+
+.cards-img.img-excellence {
+  max-height: 392px;
+}
+
+.about .inner-text ul {
+  padding-left: 28px;
+}
+
+.card-container-default {
+  width: 1128px;
+}
+
+.card-container-bg {
+  width: 1129px;
+}
+
+.about-workspace .como-cards-img {
+  width: 243px;
+  height: 245px;
+}
+
+.como-cards-img img {
+  width: 100%;
+  height: 100%;
+}
+/*banner*/
+
+.inside-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-breadcrumb {
+  position: absolute;
+  top: 0;
+  left: 396px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-breadcrumb-inner {
+  max-width: 648px;
+}
+
 </style>

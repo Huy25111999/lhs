@@ -9,51 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = lhs
 build_property.RootNamespace = lhs
-build_property.ProjectDir = D:\project\lhs\
+build_property.ProjectDir = C:\project\lhs\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\project\lhs
+build_property.MSBuildProjectDirectory = C:\project\lhs
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/project/lhs/Pages/Error.cshtml]
+[C:/project/lhs/Pages/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/project/lhs/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/Index.cshtml]
+[C:/project/lhs/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/Privacy.cshtml]
+[C:/project/lhs/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/Shared/_banner.cshtml]
+[C:/project/lhs/Pages/Shared/_banner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9iYW5uZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/Shared/_contactForm.cshtml]
+[C:/project/lhs/Pages/Shared/_contactForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9jb250YWN0Rm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/Shared/_footer.cshtml]
+[C:/project/lhs/Pages/Shared/_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9mb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/project/lhs/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/_ViewImports.cshtml]
+[C:/project/lhs/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/_ViewStart.cshtml]
+[C:/project/lhs/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/lhs/Pages/Shared/_Layout.cshtml]
+[C:/project/lhs/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-afh3dlrj8l
