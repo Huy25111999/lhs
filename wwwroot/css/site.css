@@ -111,6 +111,38 @@ button.btn.btn-primary-light {
     width: 1129px;
 }
 
+
+ /*---form---*/
+ .form {
+  max-width: 568px;
+  padding: 32px 56px;
+  background: #ffff;
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.container-form {
+  width: 456px;
+}
+
+.form-control {
+  background: #f1f1f1;
+  border-radius: 4px;
+  min-height: 50px;
+  border: 0;
+  padding: 12px;
+}
+
+.form-control::placeholder {
+  color: #7c7c7c;
+}
+
+input:focus::placeholder,
+.form-control:focus::placeholder {
+  color: transparent;
+}
+
+
 /* --- home --- */
 
 .wrapper-container {

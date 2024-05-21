@@ -11,66 +11,133 @@
 
 @await Html.PartialAsync("Shared/_banner", "About LSH");
 
-<section class="about mt-8x">
+  <section class="contact mt-8x">
     <div class="card">
-        <div class="card-container-bg mx-auto">
-            <div class="d-flex flex-wrap justify-content-between">
-                <div class="cards-img img-excellence">
-                    <img src="~/images/about-us/excellence.png"
-                         alt="Cloud based phone system" />
-                </div>
+      <div class="card-container-bg mx-auto">
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="cards-inner-text contact-inner-text-left">
+            <h2 class="text-title mb-5">Get In Touch</h2>
+            <div class="d-flex mb-5">
+              <div class="card-img-icon">
+                <img src="~/images/icons/location.png" alt="contact">
+              </div>
 
-                <div class="pb-0 card-inner-text d-flex align-items-center">
-                    <div class="hero-breadcrumb-inner">
-                        <div class="form">
-                            <form id="form" class="needs-validation" novalidate>
-                                <h3 class="text-title text-center m-0">Request a Call Back</h3>
-                                <div class="container-form mx-auto">
-                                    <div class="form-group lh-1 mt-4">
-                                        <label class="label-input mb-2" for="usr">Name</label>
-                                        <input type="text" placeholder="e.g. John Doe" class="form-control custom-input" id="name"
-                                               name="name" />
-                                        <p class="text-result fw-normal m-0 invalid"></p>
-                                    </div>
-
-                                    <div class="form-group lh-1 mt-3">
-                                        <label class="label-input mb-2" for="usr">Email</label>
-                                        <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
-                                               id="email" name="email" />
-                                        <p class="text-result fw-normal m-0 invalid"></p>
-                                    </div>
-
-                                    <div class="form-group lh-1 mt-3">
-                                        <label class="label-input mb-2" for="usr">Phone</label>
-                                        <input type="text" placeholder="e.g. 6814 0066" class="form-control custom-input" id="contact"
-                                               name="contact" onkeypress="keyPress(event)" />
-                                        <p class="text-result fw-normal m-0 invalid"></p>
-                                    </div>
-
-                                    <div class="form-group lh-1 mt-3">
-                                        <label class="label-input mb-2" for="usr">Enquiring about</label>
-                                        <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
-                                               id="email" name="email" />
-                                        <p class="text-result fw-normal m-0 invalid"></p>
-                                    </div>
-
-                                    <div class="form-group lh-1 mt-3">
-                                        <label class="label-input mb-2" for="usr">Message</label>
-                                        <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
-                                               id="email" name="email" />
-                                        <p class="text-result fw-normal m-0 invalid"></p>
-                                    </div>
-                                </div>
-                                <div class="btn-customer mt-4">
-                                    <button type="submit" class="btn btn-primary w-100">
-                                        Submit
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+              <div>
+                <h4 class="fw-bold mb-2 text-sub-title">Locate Us</h4>
+                <p class="m-0">160 Robinson Road, #18-07 SBF Center, Singapore 068914</p>
+              </div>
             </div>
+
+            <div class="d-flex mb-5">
+              <div class="card-img-icon">
+                <img src="~/images/icons/phone.png" alt="contact">
+              </div>
+              <div>
+                <h4 class="fw-bold mb-2 text-sub-title">Call Us</h4>
+                <p class="m-0">+65 6538 0233 (General)</p>
+              </div>
+            </div>
+
+
+            <div class="d-flex mb-5">
+              <div class="card-img-icon">
+                <img src="~/images/icons/email.png" alt="contact">
+              </div>
+              <div>
+                <h4 class="fw-bold mb-2 text-sub-title">Mail Us</h4>
+                <p class="m-0">enquiry@lshmanagement.com.sg</p>
+              </div>
+            </div>
+
+            <div class="d-flex mb-5">  
+              <div class="card-img-icon">
+                <img src="~/images/icons/clock.png" alt="contact">
+              </div>
+              <div class="time">
+                <h4 class="fw-bold mb-2 text-sub-title">Operating Hours</h4>
+                <p class="m-0">Monday – Friday: 0830hours – 1730hours
+                  Sat, Sun, PH: Closed</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pb-0 card-inner-text d-flex align-items-center">
+            <div class="hero-breadcrumb-inner">
+              <div class="form">
+                <form id="form" class="needs-validation" novalidate>
+                  <h3 class="text-title text-center m-0 text-white">Send Us A Message</h3>
+                  <div class="container-form mx-auto">
+                    <div class="form-group lh-1 mt-4">
+                      <label class="label-input mb-2 text-white" for="usr">Name</label>
+                      <input type="text" placeholder="e.g. John Doe" class="form-control custom-input" id="name"
+                        name="name" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2 text-white" for="usr">Email</label>
+                      <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
+                        id="email" name="email" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2 text-white" for="usr">Phone</label>
+                      <input type="text" placeholder="e.g. 6814 0066" class="form-control custom-input" id="contact"
+                        name="contact" onkeypress="keyPress(event)" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2 text-white" for="usr">Enquiring about</label>
+                      <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
+                        id="email" name="email" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+
+                    <div class="form-group lh-1 mt-3">
+                      <label class="label-input mb-2 text-white" for="usr">Message</label>
+                      <input type="text" placeholder="e.g. johndoe@gmail.com" class="form-control custom-input"
+                        id="email" name="email" />
+                      <p class="text-result fw-normal m-0 invalid"></p>
+                    </div>
+                  </div>
+                  <div class="btn-customer mt-4">
+                    <button type="submit" class="btn btn-primary w-100">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </div>
-</section>
+      </div>
+  </section>
+
+<style>
+     .cards-inner-text.contact-inner-text-left {
+      width: 527px;
+    }
+
+    .contact-inner-text-left .time {
+      max-width: 336px;
+    }
+
+    .card-img-icon{
+      width: 48px;
+      height: 48px;
+      margin-right: 12px;
+    }
+
+    .card-img-icon img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .form {
+      background: #353839;
+    }
+
+</style>
