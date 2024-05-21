@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\images\\banner\\banner-mobile-default.png"
     },
     {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\banner\\map.png",
+      "PackagePath": "staticwebassets\\images\\banner\\map.png"
+    },
+    {
       "Id": "D:\\project\\lhs\\wwwroot\\images\\home\\accounting.png",
       "PackagePath": "staticwebassets\\images\\home\\accounting.png"
     },
@@ -87,6 +91,22 @@
     {
       "Id": "D:\\project\\lhs\\wwwroot\\images\\home\\taxation.png",
       "PackagePath": "staticwebassets\\images\\home\\taxation.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\icons\\clock.png",
+      "PackagePath": "staticwebassets\\images\\icons\\clock.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\icons\\email.png",
+      "PackagePath": "staticwebassets\\images\\icons\\email.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\icons\\location.png",
+      "PackagePath": "staticwebassets\\images\\icons\\location.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\icons\\phone.png",
+      "PackagePath": "staticwebassets\\images\\icons\\phone.png"
     },
     {
       "Id": "D:\\project\\lhs\\wwwroot\\images\\logo-about-us.png",
