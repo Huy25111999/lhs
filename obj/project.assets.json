@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vanhuy.le\\.nuget\\packages\\": {}
+    "C:\\Users\\lehuy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\project\\lhs\\lhs.csproj",
+      "projectUniqueName": "D:\\project\\lhs\\lhs.csproj",
       "projectName": "lhs",
-      "projectPath": "C:\\project\\lhs\\lhs.csproj",
-      "packagesPath": "C:\\Users\\vanhuy.le\\.nuget\\packages\\",
-      "outputPath": "C:\\project\\lhs\\obj\\",
+      "projectPath": "D:\\project\\lhs\\lhs.csproj",
+      "packagesPath": "C:\\Users\\lehuy\\.nuget\\packages\\",
+      "outputPath": "D:\\project\\lhs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vanhuy.le\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lehuy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
