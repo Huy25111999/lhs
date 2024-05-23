@@ -115,6 +115,14 @@ button.btn.btn-primary-light {
     width: 1129px;
 }
 
+.mb-2sm {
+  margin-bottom: 12px;
+}
+
+.text-sub-title {
+  font-size: 22px;
+  line-height: 25.78px;
+}
 
  /*---form---*/
  .form {
@@ -154,7 +162,7 @@ input:focus::placeholder,
 }
 
 .service-container {
-  width: 1128px;
+  max-width: 1128px;
 }
 
 .inner-text .category{

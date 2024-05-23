@@ -117,6 +117,22 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\service\\account.png",
+      "PackagePath": "staticwebassets\\images\\service\\account.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\service\\secretarial.png",
+      "PackagePath": "staticwebassets\\images\\service\\secretarial.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\service\\service-other.png",
+      "PackagePath": "staticwebassets\\images\\service\\service-other.png"
+    },
+    {
+      "Id": "D:\\project\\lhs\\wwwroot\\images\\service\\taxation.png",
+      "PackagePath": "staticwebassets\\images\\service\\taxation.png"
+    },
+    {
       "Id": "D:\\project\\lhs\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

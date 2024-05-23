@@ -1,0 +1,132 @@
+@page
+@{
+    ViewData["Title"] = "Service";
+}
+
+<div class="banner" style="height:330px; background: #cecece"></div>
+
+ <div class="wrapper-container">
+        <div class="service-container container mx-auto p-0">
+
+            <section class="mt-8x wrap-content">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="cards-img">
+                        <img src="~/images/service/secretarial.png" alt="Cloud based phone system" />
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class='inner-text'>
+                            <h4 class="fw-bold mb-3 text-sub-title">Corporate Secretarial</h4>
+
+                            <p class="mb-4">We assist with company incorporation as well as rendering services to ensure
+                                compliance with current legislations governing companies registered in Singapore. </p>
+
+                            <button class="btn btn-primary btn-inner-text mt-0">
+                                Learn More
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-8x wrap-content">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class='inner-text'>
+                            <h4 class="fw-bold mb-3 text-sub-title">Accounting</h4>
+
+                            <p class="mb-4">We provide out-sourced accounting and payroll administration services to
+                                companies who find such arrangements cost effective and efficient.</p>
+
+                            <button class="btn btn-primary btn-inner-text mt-0">
+                                Learn More
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="cards-img">
+                        <img src="~/images/service/account.png" alt="Cloud based phone system" />
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="mt-8x wrap-content">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="cards-img">
+                        <img src="~/images/service/taxation.png" alt="Cloud based phone system" />
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class='inner-text'>
+                            <h4 class="fw-bold mb-3 text-sub-title">Taxation</h4>
+
+                            <p class="mb-4">Our Tax Specialist provide a range of tax services including Annual Tax
+                                Compliance for Corporate and Individuals, ad-hoc Tax Planning and Consultancy, Goods &
+                                Services Tax services and Tax Advisory. </p>
+
+                            <button class="btn btn-primary btn-inner-text mt-0">
+                                Learn More
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-8x wrap-content">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <div class="d-flex flex-column justify-content-center">
+                        <div class='inner-text'>
+                            <h4 class="fw-bold mb-3 text-sub-title">Other Services</h4>
+
+                            <p class="mb-4">For better co-ordination of various professional services as required by
+                                your company, we offer the capability of providing the full range of corporate services
+                                with one point of contact.</p>
+
+                            <button class="btn btn-primary btn-inner-text mt-0">
+                                Learn More
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="cards-img">
+                        <img src="~/images/service/service-other.png" alt="Cloud based phone system" />
+                    </div>
+
+
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+
+@await Html.PartialAsync("Shared/_contactForm")
+
+<style>
+
+    .service-container{
+        max-width: 1129px;
+    }
+    .wrap-content .cards-img {
+        max-width: 553px;
+        max-height: 300px;
+    }
+
+    .cards-img{
+        border-radius: 8px;
+        border: 8px solid #FFFFFF;
+        box-shadow: 0px 4px 16px 0px #00000026;
+    }
+
+    .wrap-content .inner-text {
+        max-width: 520px;
+    }
+
+    button.btn.btn-primary{
+        min-width: 131px
+    }
+</style>
